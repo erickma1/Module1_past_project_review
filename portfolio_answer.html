@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="style.css" />
+    
+
+</head>
+<body>
+  
+    <style scoped>
+        
+        /* 0 to 299 */
+        .on-the-fly-behavior {
+            background-image: url('particular_ad_small.png'); 
+        }
+        /* 300 to X */
+        @media (min-width: 300px) { /* or 301 if you want really the same as previously.  */
+            .on-the-fly-behavior {   
+                background-image: url('particular_ad.png');
+            }
+        }
+        </style>
+
+
+
+        <span class="on-the-fly-behavior"></span>
+
+    <nav id="navbar" class="navigation_class">
+        <ul class="nav-list">
+          <li>
+            <a href="#welcome">Home</a>
+          </li>
+          <li>
+            <a href="#myprojects">My Projects</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <section id="welcome-section" class="welcome-section">
+        <h1>Hi, welcome to my portfolio page</h1>
+       </section>
+
+
+      <section id="projects" class="project-section">
+        <h1>This is my projects section</h1>
+
+        
+      </section>
+<!-- element with a class of project-tile -->
+      
+
+      <section id="projects" class="projects-section">
+        <h1 class="projects-section-header">Sample projects</h1>
+    
+        <div class="projectsnav">
+          
+            
+          <a
+            href=""
+            target="_blank"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src=""
+              alt="project"
+            />
+           
+           </a>
+        </div>
+    <!-- profile link -->
+        <a
+          id="profile-link"
+          href=""
+          target="_blank"
+          class=""
+          ><i class=""></i> MyProjects</a
+        >
+
+        
+      </section>
+
+      
+</body>
+</html>
